@@ -10,6 +10,6 @@
 
 
 
-**未来计划**：，美化模版，添加玉兰花和缙云山元素。
+**未来计划**：美化模版，添加玉兰花和缙云山元素。
 ![image](https://github.com/user-attachments/assets/276aa932-d2f8-49b1-a2ae-eabd3e2c692b)
 ![image](https://github.com/user-attachments/assets/800f0851-b3d1-4181-b9f1-6ee313dc23b9)
