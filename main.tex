@@ -28,7 +28,6 @@
 }
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%  简历正文  %%%%%%%%%%%
 % 写简历还有项目细节时不要泛泛而谈太笼统，要应用STAR原则，即Situation（情景）、Task（任务）、Action（行动）和Result（结果）四个英文单词的首字母组合。
@@ -76,8 +75,8 @@
     %%%%%%%%%  2、简历正文  %%%%%%%%%%%
     % 个人信息
     \begin{figure}[h]
-        % 左半边，信息，比例占行宽82%，可以自己调，非必要不建议调整
-        \begin{minipage}{0.82\textwidth}
+        % 左半边，信息，比例占行宽75%，可以自己调，非必要不建议调整
+        \begin{minipage}{0.75\textwidth}
             \section{\makebox[\widthof{\faAddressCard}][cc]{\color{SWU_Blue}{\faAddressCard}}\quad 个人信息}
             \begin{tabularx}{\linewidth}{p{\widthof{出生日期:}}Xp{\widthof{政治面貌:}}X}
                 姓\ \ \ \ \ \ \ \ \ 名: & 方鸿渐 & 
@@ -92,9 +91,11 @@
     \hspace{2em}
     % 右半边，照片，比例占行宽12%，可以自己调
     % images/avatar.png 替换成你证件照的路径。
-    \begin{minipage}{0.12\textwidth}
+    \begin{minipage}{0.16\textwidth}
         \setlength{\fboxsep}{0pt}
-        \doublebox{\includegraphics[width=\linewidth]{images/my_avatar.png}}
+        \fcolorbox{SWU_Blue}{white}{\includegraphics[width=\linewidth]{images/my_avatar.png}}
+        % \fcolorbox{\includegraphics[width=\linewidth]{images/my_avatar.png}}
+        % \fbox{}
     \end{minipage}
     \end{figure}
     \vspace{-1.5em}
@@ -142,12 +143,12 @@
     % 项目模板1
     \vspace{0.5em}
     {\large{\textbf{项目名称}}} \hfill {横向/纵向项目-已完结/进行中}\\
-    \textbf{你在项目中扮演的角色} \hfill 2020年9月至2021年9月\\
+    \textbf{你在项目中扮演的角色} \hfill 20XX年9月至20XX年9月\\
     项目简介：XXX，XXX。
     
     % 项目模板2
     \vspace{0.5em}
-    {\large{\textbf{国企单位-基于视觉识别算法改进的厂区安全检测平台}}} 项目负责人 \hfill {2023年10月至2024年1月}\\
+    {\large{\textbf{国企单位-基于视觉识别算法改进的厂区安全检测平台}}} 项目负责人 \hfill {20XX年10月至20XX年1月}\\
     主要内容：数据集制作;模型复现训练;核心算法实现;GUI开发;专利撰写\ 等
 
     % 技能特长（标题根据个人需求修改）
