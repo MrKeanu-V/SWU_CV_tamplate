@@ -7,7 +7,7 @@
 
 ## 页面预览
 
-![preview](.\Preview\preview.jpg)
+![preview](./Preview/preview.jpg)
 
 ## 如何使用
 
