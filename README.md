@@ -7,7 +7,7 @@
 
 ## 页面预览
 
-![image](https://github.com/user-attachments/assets/15b1c5f0-b8d1-427f-ad1f-644f543f1afa)
+![preview](.\Preview\preview.jpg)
 
 ## 如何使用
 
