@@ -52,8 +52,8 @@
     % 页眉：校标组合+学院名
     \begin{tikzpicture}[remember picture, overlay]
         \node[anchor=north, inner sep=0pt](header) at (current page.north){
-            \includegraphics[width=\paperwidth]{images/header.png}
-        };
+            \includegraphics[width=\paperwidth]{images/swu_header_dark.png}
+        }; % 此处修改页眉图片light or dark
         \node[anchor=west](school_logo) at (header.west){
             \hspace{0.5cm}
             \includegraphics[width=0.15\textwidth]{images/swu_logo_1_AIenhanced.png}
@@ -65,11 +65,11 @@
     \end{tikzpicture}
     \vspace{-3.5em}
 
-    % 页脚：为文首声明的\contact，
+    % 页脚：为文首声明的\contact
     \begin{tikzpicture}[remember picture, overlay]
         \node[anchor=south, inner sep=0pt](footer) at (current page.south){
-            \includegraphics[width=\paperwidth]{images/footer.png}
-        };
+            \includegraphics[width=\paperwidth]{images/swu_footer_dark.png}
+        }; % 此处修改页脚图片light or dark
         % 需要更改时直接更改文首的页眉页脚即可
         \node[anchor=center] at(footer.center){\contact};
     \end{tikzpicture}

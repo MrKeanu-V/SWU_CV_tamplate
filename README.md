@@ -3,15 +3,25 @@
 
 ## 设计理念
 
-本仓库为pre release仓库，预计两周时间会补完所有内容。
+结合缙云山、嘉陵江、玉兰花等元素，结合SWU VIS设计了背景、页眉、页脚等素材，并提供深色浅色两套素材主题。
 
 ## 页面预览
 
-![preview](./Preview/preview.jpg)
+浅色主题：
+![preview](./preview/swu_cv_light.jpg)
 
 ## 如何使用
 
-可以直接在Overleaf中搜索“西南大学中文简历模版”并导入使用，也可clone本仓库并在本地使用XeLaTeX编译。个人建议直接在Overleaf中搜索本模板，在线编辑编译。
+### 如何在Overleaf使用本模板
+~~直接在Overleaf中搜索“西南大学中文简历模版”并导入使用~~（Over Leaf似乎不怎么审核新模板，若以后本模板被Overleaf收纳，会及时更新README）
+以下是如何讲资源导入到Overleaf并使用
+1. 直接下载本仓库，然后导入到Overleaf
+2. 直接通过链接方式导入到Overleaf
+如图，![Overleaf使用教程](./preview/usage_by_overleaf.png)
+
+### 如何本地使用当前模板
+本地使用需要配置Latex编译环境，可以使用PdfTex、XeLaTeX等编译器。Clone本仓库后直接运行即可。
+P.S. 个人建议直接在Overleaf中导入本仓库链接，最直观和迅速
 
 ## 相关链接
 
@@ -22,10 +32,7 @@ Overleaf：（已上传，等待更新）
 
 ## 其他
 
-后续玉兰花和缙云山元素正在完善。
-如何修改建议，可以直接发起Issue。对您有帮助的话，可以给个star嗷~٩(๑òωó๑)۶
+目前已完善页眉、页脚和背景。
+如何修改建议或使用问题，可以直接提Issue。对您有帮助的话，可以给个star嗷~٩(๑òωó๑)۶
 
-**当前进度**：正在美化模版，添加玉兰花和缙云山元素。
-![image](https://github.com/user-attachments/assets/276aa932-d2f8-49b1-a2ae-eabd3e2c692b)
-![image](https://github.com/user-attachments/assets/800f0851-b3d1-4181-b9f1-6ee313dc23b9)
-
+最后，祝学弟学妹们学业工作顺利💪

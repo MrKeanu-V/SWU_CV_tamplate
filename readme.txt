@@ -9,11 +9,13 @@ https://github.com/max32002/swei-spring
 1. 武大中文CV模板：https://www.overleaf.com/latex/templates/whuwu-han-da-xue-zhong-wen-jian-li-mo-ban/dbkvxrqjmzpd
 2. 西北工业大学中文CV模板：https://www.overleaf.com/latex/templates/npu-cv/mncqzxhvfzrx
 
+最后，特别感谢Ela制作的西南大学背景图片，结合了缙云山、嘉陵江、玉兰花等元素，素雅的设计完全击中了我。
+
 此模板的改动有：
 1. 修改校标、配色、字体等；
 2. 增加研究生对应模块；
 3. 做了一些更契合个人习惯的改动（毕竟是自用模板）
-4. 在header和footer添加了西大的视觉系统元素
+4. 在header和footer添加了西大的视觉系统元素（感谢Ela）
 
 三、使用方法
 使用XeLaTeX编译。建议上传Overleaf编译。
