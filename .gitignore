@@ -1,0 +1,22 @@
+# LaTeX 中间文件
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex.gz(busy)
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.xdv
+
+# 构建目录
+build/
+
+# 系统文件
+.DS_Store
