@@ -10,7 +10,10 @@
 ## 页面预览
 
 浅色主题：
-![preview](./preview/swu_cv_light.jpg)
+![preview_light](./preview/swu_cv_light.jpg)
+
+深色主题：
+![preview_dark](./preview/swu_cv_dark.jpg)
 
 ## 如何使用
 
