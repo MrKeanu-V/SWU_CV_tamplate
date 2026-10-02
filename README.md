@@ -17,6 +17,7 @@
 ### 如何在Overleaf使用本模板
 1. 直接下载本仓库，然后导入到Overleaf
 2. 直接通过链接方式导入到Overleaf
+3. 通过注释 **settings.tex** 中的 `DarkTheme` 相关行即可迅速切换简历主题。
 
 如图，![Overleaf使用教程](./preview/usage_by_overleaf.png)
 

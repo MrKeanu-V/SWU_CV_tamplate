@@ -18,7 +18,7 @@ https://github.com/max32002/swei-spring
 4. 在header和footer添加了西大的视觉系统元素（感谢Ela）
 
 三、使用方法
-使用XeLaTeX编译。建议上传Overleaf编译。
+使用XeLaTeX编译。建议上传Overleaf编译。通过注释 **settings.tex** 中的 `DarkTheme` 相关行即可迅速切换简历主题。
 
 四、其他注意事项
 1. 所有以\fa开头的都是font awesome宏包里的logo。详细信息参考：

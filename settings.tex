@@ -80,8 +80,37 @@
     BoldFont=* Bold,
 ]{SweiSpring}
 
+% 自定义主题
+% 根据需要注释下面任意一栏即可快速配置主题色
+\newif\ifDarkTheme
+\DarkThemetrue % 设置为深色主题
+% \DarkThemefalse % 设置为浅色主题
+
 % 自定义主题色
 % 西大蓝 （来自官方VIS配色方案，参考http://dwxcbwlgzb.swu.edu.cn/info/1017/1016.htm）
-% 在此处修改色系：深色系# 061237，浅色系使用# 353F6C
-\definecolor{SWU_Blue}{HTML}{353F6C}
+% 深色系# 061237，浅色系使用# 353F6C
+\ifDarkTheme
+  \definecolor{SWU_Blue}{HTML}{061237}
+\else
+  \definecolor{SWU_Blue}{HTML}{353F6C}
+\fi
+
+
+% 自定义页眉、页脚
+\ifDarkTheme
+  \newcommand{\SWUHeader}{images/swu_header_dark.png} % 深色主题页眉图片
+  \newcommand{\SWUFooter}{images/swu_footer_dark.png} % 深色主题页脚图片
+\else
+  \newcommand{\SWUHeader}{images/swu_header_light.png} % 浅色主题页眉图片
+  \newcommand{\SWUFooter}{images/swu_footer_light.png} % 浅色主题页脚图片
+\fi
+
+% 自定义Logo图片
+\ifDarkTheme
+  \newcommand{\SWULogo}{images/swu_logo_big_dark.png} % 深色主题Logo图片
+\else
+  \newcommand{\SWULogo}{images/swu_logo_big_light.png} % 浅色主题Logo图片
+\fi
+
+\newcommand{\SWUHLogo}{images/swu_logo_horizontal.png} % 水平版Logo图片
 

@@ -52,11 +52,11 @@
     % 页眉：校标组合+学院名
     \begin{tikzpicture}[remember picture, overlay]
         \node[anchor=north, inner sep=0pt](header) at (current page.north){
-            \includegraphics[width=\paperwidth]{images/swu_header_dark.png}
+            \includegraphics[width=\paperwidth]{\SWUHeader}
         }; % 此处修改页眉图片light or dark
         \node[anchor=west](school_logo) at (header.west){
             \hspace{0.5cm}
-            \includegraphics[width=0.15\textwidth]{images/swu_logo_1_AIenhanced.png}
+            \includegraphics[width=0.15\textwidth]{\SWUHLogo}
         };
         \node[anchor=east](school_name) at(header.east){
             \textcolor{white}{\textbf{\school}}
@@ -68,7 +68,7 @@
     % 页脚：为文首声明的\contact
     \begin{tikzpicture}[remember picture, overlay]
         \node[anchor=south, inner sep=0pt](footer) at (current page.south){
-            \includegraphics[width=\paperwidth]{images/swu_footer_dark.png}
+            \includegraphics[width=\paperwidth]{\SWUFooter}
         }; % 此处修改页脚图片light or dark
         % 需要更改时直接更改文首的页眉页脚即可
         \node[anchor=center] at(footer.center){\contact};
@@ -77,7 +77,7 @@
     % 背景：校徽背景
     \begin{tikzpicture}[remember picture, overlay]
         \node[opacity=0.05] at(current page.center){
-            \includegraphics[width=0.7\paperwidth, keepaspectratio]{images/swu_logo_big_blue.png}
+            \includegraphics[width=0.7\paperwidth, keepaspectratio]{\SWULogo}
         };
     \end{tikzpicture}
 
@@ -179,11 +179,11 @@
     % % 页眉：校标组合+学院名
     % \begin{tikzpicture}[remember picture, overlay]
     %     \node[anchor=north, inner sep=0pt](header) at (current page.north){
-    %         \includegraphics[width=\paperwidth]{images/header.png}
+    %         \includegraphics[width=\paperwidth]{\SWUHeader}
     %     };
     %     \node[anchor=west](school_logo) at (header.west){
     %         \hspace{0.5cm}
-    %         \includegraphics[width=0.15\textwidth]{images/swu_logo_1_AIenhanced.png}
+    %         \includegraphics[width=0.15\textwidth]{\SWUHLogo}
     %     };
     %     \node[anchor=east](school_name) at(header.east){
     %         \textcolor{white}{\textbf{\school}}
@@ -195,7 +195,7 @@
     % % 页脚，联系方式
     % \begin{tikzpicture}[remember picture, overlay]
     %     \node[anchor = south, inner sep=0pt] at (current page.south){
-    %         \includegraphics[width=\paperwidth]{images/footer.png}
+    %         \includegraphics[width=\paperwidth]{\SWUFooter}
     %     };
     %     % 联系方式
     %     \node[anchor=center] at(footer.center){\contact};
@@ -204,7 +204,7 @@
     % % 背景
     % \begin{tikzpicture}[remember picture, overlay]
     %     \node[opacity=0.1] at(current page.center){
-    %         \includegraphics[width=0.7\paperwidth, keepaspectratio]{images/swu_logo_big_blue.png}
+    %         \includegraphics[width=0.7\paperwidth, keepaspectratio]{\SWULogo}
     %     };
     % \end{tikzpicture}
 
