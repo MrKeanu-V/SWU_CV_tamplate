@@ -27,6 +27,50 @@
 
 本地使用需要配置Latex编译环境，可以使用PdfTex、XeLaTeX等编译器。Clone本仓库后直接运行即可。
 
+本地编辑器推荐使用 **VS Code** + **LaTeX Workshop**插件，Code工具`settings.json`配置如下：
+``` json
+"latex-workshop.latex.rootFile.indicator": "\\begin{document}",
+    "latex-workshop.latex.outDir": "%DIR%/build",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-xelatex",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk (xelatex)",
+            "tools": [
+                "latexmk"
+            ]
+        }
+    ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.log",
+        "*.out",
+        "*.toc",
+        "*.lof",
+        "*.lot",
+        "*.fls",
+        "*.fdb_latexmk",
+        "*.synctex.gz",
+        "*.bbl",
+        "*.blg",
+        "*.bcf",
+        "*.run.xml",
+        "*.xdv"
+    ],
+```
+
 P.S. 个人建议直接在Overleaf中导入本仓库链接，最直观和迅速
 
 ## 相关链接
@@ -42,4 +86,4 @@ Overleaf：（已上传，等待更新）
 
 如有修改建议或使用问题，可以直接提Issue。对您有帮助的话，可以给个star嗷~٩(๑òωó๑)۶
 
-最后，祝学弟学妹们学业工作顺利💪
+最后，祝学弟学妹们学业旗开得胜💪
